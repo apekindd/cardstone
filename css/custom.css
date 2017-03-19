@@ -1,0 +1,46 @@
+body{background-color: #F2F2F2}
+.main{background-color: #fff}
+
+
+.navbar{background-color:#464646;border-radius: 0px; min-height: 35px;margin-bottom: 0px;}
+.container{    width: 1240px;  padding: 0;}
+.logo-text{color:#FF8040; font-family: "Goudy Stout";}
+.logo-block{display: inline-block;  float: left;}
+.navbar-nav{font-family: "Franklin Gothic Medium Cond"; }
+.navbar-nav li a{color: #C3C3C3; }
+.navbar-nav li.active, .navbar-nav li a:hover, .navbar-nav li a:active, .navbar-nav li a:visited, .navbar-nav li a:focus
+{background-color: #292929}
+.navbar-nav li.active a,.navbar-nav li a:hover, .navbar-nav li a:active, .navbar-nav li a:focus, .navbar-nav li a:visited{color: #fff}
+
+/*.search-header{display: inline-block;  float: right;}*/
+.search-head{
+    background-color: transparent;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    color:#fff;
+    font-family: "Franklin Gothic Medium Cond";
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    border-image: none;
+    font-size: 1.500em;
+    position: relative;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    line-height: 1.4;}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.small-bg{background-image: url("/img/bg1.png"); height:150px}
+
+.glyphicon-search {color: #ff8040;  font-size: 25px;}
+
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
