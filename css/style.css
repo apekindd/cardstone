@@ -38,11 +38,12 @@
     .navbar-form{
         float:right!important;
     }
-    .thumbnail>img{height:200px}
+    .thumbnail>img{height:200px;    width: 100%;}
     .caption{
         position: relative;
         padding-bottom: 105px;
     }
+    .container_main>div{margin-bottom: 10px}
 }
 
 .museo_title{

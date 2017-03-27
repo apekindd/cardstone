@@ -64,6 +64,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-12">
+                    <div class="row main_item">
+                        <div class="thumbnail col-xs-12 col-md-4"><img src="/img/tavern.jpg" alt=""></div>
+                        <div class="caption  hidden-xs col-md-8">
+                            <h3 class="preview_title museo_title"><a href="#">Хозяин таверны в городе</a></h3>
+                            <p class="preview">Новое приключение от Blizzard в котором найдется место для каждого героя...</p>
+                            <footer class="block_footer">
+                                1 ноября 2017 / 100 просмотров
+                            </footer>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--<div class="col-md-3">
