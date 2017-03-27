@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Museo Slab Title"; /* Имя шрифта */
+    src: url(/fonts/MuseoCyrl700.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: "Museo Slab 300"; /* Имя шрифта */
+    src: url(/fonts/MuseoCyrl300.otf); /* Путь к файлу со шрифтом */
+}
+
 @media screen and (max-width: 767px) {
     .logo-text{
         line-height: 3;
@@ -11,24 +20,42 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .thumbnail>img{height:200px}
+    /*.thumbnail>img{height:200px}*/
+
+
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar-form{
         float:right!important;
     }
     .thumbnail>img{height:200px}
+    .caption{
+        position: relative;
+        padding-bottom: 105px;
+    }
 }
 @media screen and (min-width: 1200px) {
     .navbar-form{
         float:right!important;
     }
     .thumbnail>img{height:200px}
+    .caption{
+        position: relative;
+        padding-bottom: 105px;
+    }
+}
+
+.museo_title{
+    font-family: "Museo Slab Title";
+}
+.container_title{
+    font-size: 20px;
 }
 
 body{
     background-color: #F2F2F2;
-    font-family: "Museo Slab";
+    font-family: "Museo Slab 300";
+    font-size: 15px;
 }
 
 .main{
@@ -40,7 +67,8 @@ body{
     border-radius: 0px;
     margin-bottom: 0px;
     border:none;
-    font-family: "Franklin Gothic Medium Cond";
+    /*font-family: "Franklin Gothic Medium Cond";*/
+    border-bottom:3px solid #0091d3;
 }
 .navbar-nav, .navbar-collapse, .dropdown-menu, .navbar{
     background-color: #333;
@@ -81,7 +109,7 @@ body{
 .search-head{
     background-color: transparent;
     color:#fff;
-    font-family: "Franklin Gothic Medium Cond";
+
     border: none;
     border-bottom: 1px solid #dcdcdc;
 }
@@ -142,4 +170,9 @@ textarea:focus, input:focus{
 .container_main{
     background-color: #d3d3d8;
     padding: 20px 20px 20px 20px;
+}
+
+.block_footer{
+    position: absolute;
+    bottom: 0px;
 }

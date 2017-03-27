@@ -27,7 +27,7 @@
             </div>
             <div class="hidden-xs col-sm-1"></div>
             <div class="collapse navbar-collapse" id="main_menu">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav museo_title">
                     <li class="active"><a href="#">Новости</a></li>
                     <li><a href="#">Колоды</a></li>
                     <li class="dropdown">
@@ -50,14 +50,17 @@
     <div class="container main">
         <div class="row top-bg"><div class="small-bg" style="background-image: url('/img/bg1.png');"></div></div>
         <div class="row">
-            <div class="container_title">NEWS</div>
+            <div class="container_title museo_title">NEWS</div>
             <div class="container container_main">
                 <div class="col-xs-12">
                     <div class="row main_item">
                         <div class="thumbnail col-xs-12 col-md-4"><img src="/img/th1.jpg" alt=""></div>
                         <div class="caption  hidden-xs col-md-8">
-                            <h3 class="preview_title"><a href="#">Название поста Название поста</a></h3>
-                            <p clss="preview"></p>
+                            <h3 class="preview_title museo_title"><a href="#">В тёмном омуте</a></h3>
+                            <p class="preview">Новая колода зулока от представителя Украины DrHippi</p>
+                            <footer class="block_footer">
+                                4 ноября 2017 / 10 просмотров
+                            </footer>
                         </div>
                     </div>
                 </div>
