@@ -47,15 +47,15 @@
         </div>
     </div>
 
-    <div class="container main main-detail">
+    <div class="container main">
         <div class="row top-bg"><div class="small-bg" style="background-image: url('/img/bg1.png');"></div></div>
 
-        <!--<div class="row top-bg">
+        <div class="row top-bg">
             <div class="container_title museo_title">ТОП</div>
             <div class="container">
 
             </div>
-        </div>-->
+        </div>
 
         <div class="row">
             <div class="container_title museo_title">НОВОЕ</div>
@@ -70,7 +70,7 @@
                         <div class="caption  hidden-xs col-md-8">
                             <h3 class="preview_title museo_title"><a href="detail.php">В тёмном омуте</a></h3>
                             <p class="preview">Новая колода зулока от представителя Украины DrHippi</p>
-                            <footer class="block_footer on_main">
+                            <footer class="block_footer">
                                 4 ноября 2017 / 10 просмотров
                             </footer>
                         </div>
