@@ -8,6 +8,7 @@
 }
 
 @media screen and (max-width: 767px) {
+    .search-bg>.small-bg{background-position-x: -285px}
     .logo-text{
         line-height: 3;
     }
@@ -30,53 +31,39 @@
     .detail_content{  padding-left: 5px!important;  padding-right: 5px!important;  }
     .container_main>div{padding-bottom: 20px;}
     .container_main{ padding-bottom:0px!important;  }
-    .caption_item{position: absolute;
-        bottom: 0;
-        width: 100%;
-        z-index: 1;}
+    .caption_item{position: absolute;  bottom: 0;  width: 100%;  z-index: 1;}
     .detail_header>h3>a{color:#fff}
-    .index-post-title{  position: absolute;  bottom: 20px;  width: 100%;  z-index: 1;  padding-right: 0px;  padding-left: 0px;
-    }
+    .index-post-title{  position: absolute;  bottom: 20px;  width: 100%;  z-index: 1;  padding-right: 0px;  padding-left: 0px;  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .search-bg>.small-bg{background-position-x: -200px}
     /*.thumbnail>img{height:200px}*/
     .thumbnail>.detail-picture{height:300px;width: 100%;}
     .container_main>div{margin-bottom: 10px}
     .caption{  position: relative;  height:  124px;   }
     .preview_text{font-size:12px}
-    .navbar-nav a{
-        font-size:12px;
-    }
+    .navbar-nav a{  font-size:12px;  }
+    .main-detail{box-shadow: 5px 10px 65px #101010;margin-bottom: 40px;}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar-form{
         float:right!important;
     }
-    .thumbnail img{height:200px!important;width: 100%;}
+    .thumbnail>a>img{height:200px;width: 100%;}
     .thumbnail>.detail-picture{height:300px;width: 100%;}
-    .caption{
-        position: relative;
-        /*padding-bottom: 20px;*/
-        height:  174px;
+    .caption{  position: relative;  height:  174px;
     }
     .detail_header{  padding: 0 48px 25px;  }
     .main-detail{box-shadow: 5px 10px 65px #101010;margin-bottom: 40px;}
     .container_main>div{margin-bottom: 10px}
-    .navbar-nav a{
-        font-size:12px;
-    }
+    .navbar-nav a{  font-size:12px;  }
+    .main-detail{box-shadow: 5px 10px 65px #101010;margin-bottom: 40px;}
 }
 @media screen and (min-width: 1200px) {
-    .navbar-form{
-        float:right!important;
-    }
-    .thumbnail img{height:200px!important;width: 100%;}
-    .thumbnail>.detail-picture{height:300px;width: 100%;}
-    .caption{
-        position: relative;
-        /*padding-bottom: 20px;*/
-        height: 197px;
-    }
+    .navbar-form{  float:right!important;  }
+    .thumbnail>a>img{height:200px;width: 100%;}
+    .thumbnail>.detail-picture{max-height:500px;width: 100%;}
+    .caption{  position: relative;  height: 197px;  }
     .container_main>div{margin-bottom: 10px}
 
     .detail_header{  padding: 0 48px 25px;  }
@@ -84,10 +71,8 @@
 }
 
 
-.row{margin-left:0px;
-    margin-right:0px;}
-.col-xs-12{padding-right: 0px;
-     padding-left: 0px; }
+.row{margin-left:0px;  margin-right:0px;}
+.col-xs-12{padding-right: 0px;  padding-left: 0px; }
 .detail_thumb{
     position:relative;
 }
@@ -176,6 +161,7 @@ body{
 .btn-search{
     padding:0;
 }
+.btn-search:hover{text-decoration: none}
 .search-head{
     background-color: transparent;
     color:#fff;
@@ -193,6 +179,7 @@ textarea:focus, input:focus{
 }
 
 .row.top-bg{/*padding-bottom: 20px*/border-bottom: 3px solid #c92727;}
+.row.search-bg{/*padding-bottom: 20px*/border-bottom: 3px solid #111111;}
 
 .pointer{cursor:pointer;outline: none!important;}
 
@@ -266,4 +253,21 @@ textarea:focus, input:focus{
 }
 
 .white-bg{background-color: #fff;}
-
+.q-word{font-size: 20px;margin-bottom:40px}
+.q-word>span{color:#c92727}
+.q-result{margin-top:40px}
+.search_form>button,.search_form>button:hover{    background-color: #333;  color: #fff;  padding: 5px;}
+.search_form>input{width:70%;border-bottom: 1px solid #111111; color:#111111}
+.search_form>input::-webkit-input-placeholder {color:#111111;}
+.search_form>input::-moz-placeholder          {color:#111111;}/* Firefox 19+ */
+.search_form>input:-moz-placeholder           {color:#111111;}/* Firefox 18- */
+.search_form>input:-ms-input-placeholder      {color:#111111;}
+.result_items{margin-top:20px}
+.item>p{margin:0px}
+.find_word{color:#c92727}
+.res_title{  font-size:17px; font-weight: bold; text-decoration: underline;}
+.res_title>a{ color: #333333;}
+.res_date{font-size:12px; color:#9e9999}
+.res_text{    color: #333333;  font-style: italic;}
+.res_item{padding:20px 0px 20px 0px}
+.res_item:not(:last-child){    border-bottom: 1px solid rgba(0,0,0,0.2);}
