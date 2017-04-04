@@ -40,8 +40,18 @@
                 <li><a href="#">Гайды</a></li>
                 <li><a href="#">Карты</a></li>
             </ul>
-            <form class="navbar-form navbar-right" method="POST">
+            <form class="navbar-form navbar-right hidden-sm" method="POST">
                 <input type="search" class="search-head" placeholder="Поиск...">&nbsp;<button class="btn btn-link pointer btn-search" type="submit"><i class="fa fa-search"></button></i>
+            </form>
+            <!-- sm search -->
+            <button class="show_search btn btn-link pointer btn-search hidden-md hidden-lg hidden-sx navbar-form navbar-right" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        <!-- sm search -->
+        <div class="hidden-md hidden-lg hidden-xs hidden-sm" id="compact_search">
+            <form class="navbar-form navbar-right" method="POST" style="width: 100%;">
+                <input type="search" class="search-head " placeholder="Поиск..." style="width: 90%;">&nbsp;<button class="btn btn-link pointer btn-search" type="submit">Найти</button>
             </form>
         </div>
     </div>
@@ -84,5 +94,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/custom.js"></script>
 </body>
 </html>

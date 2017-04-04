@@ -40,10 +40,20 @@
                     <li><a href="#">Гайды</a></li>
                     <li><a href="#">Карты</a></li>
                 </ul>
-                <form class="navbar-form navbar-right" method="POST">
-                    <input type="search" class="search-head" placeholder="Поиск...">&nbsp;<button class="btn btn-link pointer btn-search" type="submit"><i class="fa fa-search"></button></i>
+                <form class="navbar-form navbar-right hidden-sm" method="POST">
+                    <input type="search" class="search-head " placeholder="Поиск...">&nbsp;<button class="btn btn-link pointer btn-search" type="submit"><i class="fa fa-search"></button></i>
                 </form>
+                <!-- sm search -->
+                <button class="show_search btn btn-link pointer btn-search hidden-md hidden-lg hidden-sx navbar-form navbar-right" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
             </div>
+                <!-- sm search -->
+                <div class="hidden-md hidden-lg hidden-xs hidden-sm" id="compact_search">
+                    <form class="navbar-form navbar-right" method="POST" style="width: 100%;">
+                        <input type="search" class="search-head " placeholder="Поиск..." style="width: 90%;">&nbsp;<button class="btn btn-link pointer btn-search" type="submit">Найти</button>
+                    </form>
+                </div>
         </div>
     </div>
 
@@ -62,47 +72,43 @@
             <div class="container container_main">
                 <div class="col-xs-12">
                     <div class="row main_item">
-                        <div class="thumbnail col-xs-12 col-md-4">
+                        <div class="thumbnail col-xs-12 col-md-4  col-sm-4">
                             <a href="detail.php">
                                 <img src="/img/th1.jpg" alt="" />
                             </a>
                         </div>
-                        <div class="caption  hidden-xs col-md-8">
-                            <h3 class="preview_title museo_title"><a href="detail.php">В тёмном омуте</a></h3>
-                            <p class="preview">Новая колода зулока от представителя Украины DrHippi</p>
-                            <footer class="block_footer on_main">
-                                4 ноября 2017 / 10 просмотров
-                            </footer>
+                        <div class="caption index-post-title col-md-8  col-sm-8">
+                            <header class="detail_header_index">
+                            <h3 class="preview_title museo_title entry-title"><a href="detail.php">В тёмном омуте</a></h3>
+                            <p class="preview_text">Новая колода зулока от представителя Украины DrHippi</p>
+                                <footer class="block_footer on_main">
+                                    4 ноября 2017 / 10 просмотров
+                                </footer>
+                            </header>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12">
                     <div class="row main_item">
-                        <div class="thumbnail col-xs-12 col-md-4">
+                        <div class="thumbnail col-xs-12 col-sm-4 col-md-4">
                             <a href="detail.php">
                                 <img src="/img/tavern.jpg" alt="">
                             </a>
                         </div>
-                        <div class="caption  hidden-xs col-md-8">
-                            <h3 class="preview_title museo_title"><a href="detail.php">Хозяин таверны в городе</a></h3>
-                            <p class="preview">Новое приключение от Blizzard в котором найдется место для каждого героя...</p>
-                            <footer class="block_footer">
-                                1 ноября 2017 / 100 просмотров
-                            </footer>
+                        <div class="caption index-post-title col-md-8 col-sm-8">
+                            <header class="detail_header_index">
+                                <h3 class="preview_title museo_title entry-title"><a href="detail.php">Хозяин таверны в городе</a></h3>
+                                <p class="preview_text">Новое приключение от Blizzard в котором найдется место для каждого героя...</p>
+
+                                <footer class="block_footer on_main">
+                                    <time itemprop="dateCreated" datetime="2017-03-29T20:16:49+00:00">1 ноября 2017</time> / 100 просмотров
+                                </footer>
+                            </header>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--<div class="col-md-3">
-                <div class="thumbnail"><img src="http://placehold.it/300x240/6e1717" alt=""></div>
-        </div>
-        <div class="col-md-3">
-            <div class="thumbnail"><img src="http://placehold.it/300x240/0a0e87" alt=""></div>
-        </div>
-        <div class="col-md-3">
-            <div class="thumbnail"><img src="http://placehold.it/300x240/0a8719" alt=""></div>
-        </div>-->
     </div>
 
 
@@ -110,5 +116,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/custom.js"></script>
+
 </body>
 </html>
