@@ -57,8 +57,8 @@
         </div>
     </div>
 
-    <div class="container main main-detail">
-        <div class="row top-bg"><div class="small-bg" style="background-image: url('/img/bg1.png');"></div></div>
+    <div class="container main index_page main-detail">
+        <div class="row top-bg hidden-xs"><div class="small-bg" style="background-image: url('/img/bg2.png');"></div></div>
 
         <!--<div class="row top-bg">
             <div class="container_title museo_title">ТОП</div>

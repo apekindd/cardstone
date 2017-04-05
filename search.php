@@ -68,17 +68,17 @@
                 </form>
                 <div class="result_items">
                     <div class="res_item">
-                        <div class="res_title"><a href="#">Победители <span class="find_word">зминего</span> чеспионата 2017</a></div>
+                        <div class="res_title"><a target="_blank" href="detail.php">Победители <span class="find_word">зминего</span> чеспионата 2017</a></div>
                         <div class="res_date">23 ноября 2017</div>
                         <div class="res_text">Описание в 140 <span class="find_word">символов максимум</span>, что сюда написать я не знаю, значит буду импровизировать! Отключаю мозг и пишу всякую белибирду, оой сколько ошибок...</div>
                     </div>
                     <div class="res_item">
-                        <div class="res_title"><a href="#">Победители <span class="find_word">зминего</span> чеспионата 2017</a></div>
+                        <div class="res_title"><a target="_blank" href="detail.php">Победители <span class="find_word">зминего</span> чеспионата 2017</a></div>
                         <div class="res_date">23 ноября 2017</div>
                         <div class="res_text">Описание в 140 <span class="find_word">символов максимум</span>, что сюда написать я не знаю, значит буду импровизировать! Отключаю мозг и пишу всякую белибирду, оой сколько ошибок...</div>
                     </div>
                     <div class="res_item">
-                        <div class="res_title"><a href="#">Победители <span class="find_word">зминего</span> чеспионата 2017</a></div>
+                        <div class="res_title"><a target="_blank" href="detail.php">Победители <span class="find_word">зминего</span> чеспионата 2017</a></div>
                         <div class="res_date">23 ноября 2017</div>
                         <div class="res_text">Описание в 140 <span class="find_word">символов максимум</span>, что сюда написать я не знаю, значит буду импровизировать! Отключаю мозг и пишу всякую белибирду, оой сколько ошибок...</div>
                     </div>

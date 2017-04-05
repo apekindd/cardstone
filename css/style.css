@@ -8,7 +8,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .navbar{border-bottom: 3px solid #000000!important;}
     .search-bg>.small-bg{background-position-x: -285px}
+    .index_page .small-bg{background-position-x: -415px}
     .logo-text{
         line-height: 3;
     }
@@ -37,6 +39,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .search-bg>.small-bg{background-position-x: -200px}
+    .index_page .small-bg{background-position-x: -290px}
     /*.thumbnail>img{height:200px}*/
     .thumbnail>.detail-picture{height:300px;width: 100%;}
     .container_main>div{margin-bottom: 10px}

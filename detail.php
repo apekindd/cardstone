@@ -44,7 +44,7 @@
                 <input type="search" class="search-head" placeholder="Поиск...">&nbsp;<button class="btn btn-link pointer btn-search" type="submit"><i class="fa fa-search"></button></i>
             </form>
             <!-- sm search -->
-            <button class="show_search btn btn-link pointer btn-search hidden-md hidden-lg hidden-sx navbar-form navbar-right" type="button">
+            <button class="show_search btn btn-link pointer btn-search hidden-md hidden-lg hidden-xs navbar-form navbar-right" type="button">
                 <i class="fa fa-search"></i>
             </button>
         </div>
