@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Все о Hearthstone | CardStone</title>
 
@@ -68,7 +68,7 @@
         </div>-->
 
         <div class="row">
-            <div class="container_title museo_title">НОВОЕ</div>
+            <div class="container_title top_container museo_title">НОВОЕ</div>
             <div class="container container_main">
                 <div class="col-xs-12">
                     <div class="row main_item">

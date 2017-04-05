@@ -58,7 +58,7 @@
 </div>
 
 <div class="container main main-detail">
-    <div class="row ">
+    <div class="row top_image">
         <div class="col-xs-12">
             <div class="thumbnail detail_thumb">
                 <img class="detail-picture" src="img/tavern2.png">
