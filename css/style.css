@@ -39,6 +39,7 @@
     .detail_header>h3>a{color:#fff}
     .index-post-title{  position: absolute;  bottom: 5px;  width: 100%;  z-index: 1;  padding-right: 0px;  padding-left: 0px;  }
     .main{padding-bottom: 0px!important;}
+    .thumbnail>a>img{width: 100%;}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .search-bg>.small-bg{background-position-x: -200px}
@@ -277,3 +278,4 @@ textarea:focus, input:focus{
 .res_text{    color: #333333;  font-style: italic;}
 .res_item{padding:20px 0px 20px 0px}
 .res_item:not(:last-child){    border-bottom: 1px solid rgba(0,0,0,0.2);}
+

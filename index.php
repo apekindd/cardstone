@@ -70,11 +70,11 @@
         <div class="row">
             <div class="container_title top_container museo_title">НОВОЕ</div>
             <div class="container container_main">
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-8 no-padding">
                     <div class="row main_item">
                         <div class="thumbnail col-xs-12 col-md-4  col-sm-4">
                             <a href="detail.php">
-                                <img src="/img/th1.jpg" alt="" />
+                                <img src="/img/n1.png" alt="" />
                             </a>
                         </div>
                         <div class="caption index-post-title col-md-8  col-sm-8">
@@ -88,11 +88,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-8 no-padding">
                     <div class="row main_item">
                         <div class="thumbnail col-xs-12 col-sm-4 col-md-4">
                             <a href="detail.php">
-                                <img src="/img/tavern.jpg" alt="">
+                                <img src="/img/n2.jpg" alt="">
                             </a>
                         </div>
                         <div class="caption index-post-title col-md-8 col-sm-8">
