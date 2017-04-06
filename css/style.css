@@ -56,6 +56,7 @@
     .navbar-form{
         float:right!important;
     }
+    .preview_text{font-size:14px}
     .thumbnail>a>img{height:200px;width: 100%;}
     .thumbnail>.detail-picture{height:300px;width: 100%;}
     .caption{  position: relative;  height:  174px;
@@ -279,3 +280,22 @@ textarea:focus, input:focus{
 .res_item{padding:20px 0px 20px 0px}
 .res_item:not(:last-child){    border-bottom: 1px solid rgba(0,0,0,0.2);}
 
+
+.find-card{color: #c92727;border-bottom: 1px solid #010101;  text-align: center;width:60%}
+.deck{       overflow-y: scroll; height: 477px;  position: relative;  left: 0;  top: -4px;}
+.card-cnt{  position: absolute;  top: 20px;  right: 10px;  background-color: #ffc041;  display: none;  line-height: 1em;  padding: 2px 5px;  font-weight: bold;  border: 2px solid rgba(255,255,255,0.25);  color: #000;  border-radius: 5px;  box-shadow: 2px 2px rgba(0,0,0,0.6);
+}
+.icon-mana{width: 16px; height: 16px; background-image: url(/img/cards/sprited.png)!important;background-position: -20px -32px!important;background-repeat: no-repeat;  overflow: hidden;  display: inline-block;  text-indent: -999999px;  position: relative;  top: 3px;  margin-left: 5px;}
+.deck thead{  background-color: #333;  color: #fff;}
+.deck thead tr th{padding-left: 10px;}
+.deck thead tr th:last-child{padding-left: 10px;text-align:center}
+.deck tbody tr td{padding-left: 10px;}
+.deck tbody tr td:last-child{padding-left: 10px;text-align:center}
+.rare{color:#333;}
+.rare-0{color:#00a41c;}
+.rare-1{color:#19a0ff;}
+.rare-2{color:#c548ee;}
+.rare-3{color:#f08500;}
+.deck-card-count{font-size: 11px;}
+.deck-title{font-size: 30px;  font-weight: bold;}
+.in-deck{    font-size: 20px;  color: #c92727;}
