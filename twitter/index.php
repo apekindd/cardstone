@@ -20,12 +20,17 @@ require('autoload.php');
 require('players.inc.php');
 
 ksort($players);
-echo '<ul style="border:1px solid #000">';
-foreach($players as $name=>$twitter){
-    $color = ($twitter == $_GET['twitter']) ? 'color:red' : 'color:#000';
-  echo "<li style='display: inline-block;'><a style='padding:5px;font-weight:bold;{$color}' href='?twitter={$twitter}'>{$name}</a></li>";
+
+foreach($players as $type=>$arPlayers){
+    echo "$type";
+    echo '<ul style="border:1px solid #000">';
+    foreach($arPlayers as $name=>$twitter){
+        $color = ($twitter == $_GET['twitter']) ? 'color:red' : 'color:#000';
+        echo "<li style='display: inline-block;'><a style='padding:5px;font-weight:bold;{$color}' href='?twitter={$twitter}'>{$name}</a></li>";
+    }
+    echo '</ul>';
 }
-echo '</ul>';
+
 
 if($_GET['twitter'] != '') {
     $username = $_GET['twitter'];
@@ -33,14 +38,16 @@ if($_GET['twitter'] != '') {
     $connection->setOauthToken('3631306215-74HwekWekmlGbT6xBvMGVlej4xwJCTqPrxW5JWx', 'tSV3IIAdAtcA0dBu8bWeh4lGTSj1C6i0WYcSvcF53AbXp');
     $content = $connection->get('statuses/user_timeline', [
             'screen_name' => $username,
-            'count' => 50,
+            'count' => 100,
             'format' => 'json'
         ]
     );
 
     ?>
     <?php
+    $arWords = [];
     foreach ($content as $k => $v) {
+        if(empty($v->entities->media)) continue;
         ?>
         <dl class="dl-horizontal">
         <dt>Date</dt>
@@ -58,7 +65,7 @@ if($_GET['twitter'] != '') {
             <dd>
         <?php
             foreach ($v->entities->media as $url) {
-                echo "<img src='" . $url->media_url . "' width='200'/>";
+                echo "<a target='_blank' href='" . $url->media_url . "'><img src='" . $url->media_url . "' style='max-width=300px;max-height:300px;' /></a>";
             }
             ?>
                 </dd>
