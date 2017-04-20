@@ -40,6 +40,8 @@
     .index-post-title{  position: absolute;  bottom: 5px;  width: 100%;  z-index: 1;  padding-right: 0px;  padding-left: 0px;  }
     .main{padding-bottom: 0px!important;}
     .thumbnail>a>img{width: 100%;}
+
+    .deck-list{padding-bottom:20px}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .search-bg>.small-bg{background-position-x: -200px}
@@ -291,6 +293,9 @@ textarea:focus, input:focus{
 .deck thead tr th:last-child{padding-left: 10px;text-align:center}
 .deck tbody tr td{padding-left: 10px;}
 .deck tbody tr td:last-child{padding-left: 10px;text-align:center}
+
+.decks-title{font-size:22px; border-bottom:1px solid #ccc}
+
 .rare{color:#333;}
 .rare-0{color:#00a41c;}
 .rare-1{color:#19a0ff;}
@@ -299,3 +304,74 @@ textarea:focus, input:focus{
 .deck-card-count{font-size: 11px;}
 .deck-title{font-size: 30px;  font-weight: bold;}
 .in-deck{    font-size: 20px;  color: #c92727;}
+
+.card-list ul li {  text-align: left;  }
+.dk-name{    border: 1px solid #000;}
+.dk-name>strong{padding:7px}
+.deck-header{margin-bottom:10px;font-size:18px}
+.card-list ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+    max-width: 360px;
+}
+li.card-frame span.card-cost {
+    background: #0091d3;
+    padding: 8px 0 0;
+    color: #fff;
+    height: 40px;
+    width: 30px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.card-list ul li {
+    padding: 0;
+    margin: 0 0 2px;
+    position: relative;
+    z-index: 1;
+}
+li.card-frame span.card-name {
+    font-size: 16px;
+    position: relative;
+    left: 40px;
+    top: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    z-index: 2;
+}
+li.card-frame span.card-count {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    background: #2d2d2d;
+    color: #fff;
+    width: 30px;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+    display: inline-block;
+}
+li.card-frame span.card-image {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    z-index: 1;
+}
+li.card-frame {
+    font-size: 18px;
+    display: block;
+    position: relative;
+    height: 40px;
+    background-color: #1b1b1b;
+    border-right: 5px solid #000;
+}
+
+#deck-master li.rare{border-right-color: #c3c2c2 !important;}
+#deck-master li.rare-0{border-right-color:#00a41c !important;}
+#deck-master li.rare-1{border-right-color:#19a0ff !important;}
+#deck-master li.rare-2{border-right-color:#c548ee !important;}
+#deck-master li.rare-3{border-right-color:#f08500 !important;}
