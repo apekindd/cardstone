@@ -375,3 +375,93 @@ li.card-frame {
 #deck-master li.rare-1{border-right-color:#19a0ff !important;}
 #deck-master li.rare-2{border-right-color:#c548ee !important;}
 #deck-master li.rare-3{border-right-color:#f08500 !important;}
+
+.media-body .author {
+    display: inline-block;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+}
+.media-body .metadata {
+    display: inline-block;
+    margin-left: .5rem;
+    color: #777;
+    font-size: .8125rem;
+}
+.footer-comment {
+    color: #777;
+}
+.vote.plus:hover {
+    color: green;
+}
+.vote.minus:hover {
+    color: red;
+}
+.vote {
+    cursor: pointer;
+}
+.comment-reply a {
+    color: #777;
+}
+.comment-reply a:hover, .comment-reply a:focus {
+    color: #000;
+    text-decoration: none;
+}
+.devide {
+    padding: 0px 4px;
+    font-size: 0.9em;
+}
+.media-text {
+    margin-bottom: 0.25rem;
+}
+.title-comments {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 1rem;
+    padding-bottom: .25rem;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+}
+.comments{
+    padding:40px;
+    font-family: "Arial,sans-serif";
+}
+
+.comments input,  .comments textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font: normal 13px/100% Verdana,  Tahoma, sans-serif;
+    width: 200px;
+    background: #FFFFFF;
+}
+.comments textarea {
+    /*width: 400px;
+    max-width: 400px;*/
+    width:100%;
+    height: 100px;
+    line-height: 150%;
+}
+.comments input:hover,  .comments textarea:hover,
+.comments input:focus,  .comments textarea:focus {
+    border-color: #C9C9C9;
+}
+.comments .form label  {
+    margin-left: 10px;
+    color: #999999;
+}
+.comments .submit  input {
+    width: auto;
+    padding: 9px 15px;
+    background: #617798;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.comments input,  .comments textarea {
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px  8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1)  0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1)  0px 0px 8px;
+}
+.comments-form{padding-bottom: 20px}
