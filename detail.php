@@ -77,7 +77,7 @@
     </div>
     <div class="row white-bg">
         <div class="col-xs-12 col-md-8">
-            <div class="container detail_content col-lg-12" >
+            <div class="container detail_content col-xs-12" >
                 <p>Здравствуйте, уважаемые читатели hs-manacost.ru</p>
                 <p style="text-align: justify;"><strong>Экспедиция в Ун’Горо</strong> станет доступна уже очень скоро, многие откроют приобретенные 50 комплектов карт, другие же потратят заготовленные заранее чародейную пыль и золото. В игре появятся <strong><a href="http://hs-manacost.ru/vse-karty-dopolneniya-ekspediciya-v-ungoro/" target="_blank">135&nbsp;новых карт</a>,&nbsp;</strong>но и уйдут многие (6 карт из <a href="http://hs-manacost.ru/god-mamonta-volnyj-rezhim/" target="_blank">Зала славы</a>, карты Черной горы, Большого турнира и Лиги исследователей), может начать кружиться голова от перспектив создания такого огромного количества новых архетипов, либо усовершенствования старых. Поэтому в этой статье&nbsp;для вас подготовлены <strong>колоды Экспедиции в Ун’Горо для каждого класса</strong>, которые вы сможете собрать уже в скором времени. Конечно, они еще не опробованы в деле, поэтому сборки не оптимальны. Непонятно, какая мета ждет игроков в будущем, какие классы будут популярны, а какие нет. В результате чего и представленные здесь колоды очень скоро станут неактуальны, буквально через несколько дней найдутся новые оптимизированные сборки, прошедшие суровое испытание метой, которые покажут более стабильные результаты. После выхода&nbsp;дополнения 7 апреля вы сможете найти на сайте <strong>ежедневные статьи с колодами Экспедиции в Ун’Горо</strong>, которыми играют стримеры и профессиональные игроки.</p>
                 <p style="text-align: justify;">
@@ -91,28 +91,29 @@
                 <div class="comments">
                     <h3 class="title-comments">Комментарии (6)</h3>
                     <div class="row">
-                        <div class="col-xs-1">
-                            <img src="" width="50" height="50" />
+                        <div class="avatar">
+                            <img src="https://pp.userapi.com/c625421/v625421307/46842/42u1SAcasjA.jpg" width="50" height="50" />
+                            <div class="social"><span class="letter"><i class="fa fa-facebook" aria-hidden="true"></i></span></div>
+                            <!--<div class="social"><span class="letter"><i class="fa fa-vk" aria-hidden="true"></i></span></div>-->
                         </div>
-                        <div class="col-xs-11">
-                            <form class="comments-form">
-                                <p class="text">
-                                    <textarea  name="text"></textarea>
-                                </p>
-                                <p class="submit">
-                                    <input  type="submit" value="Комментировать" />
-                                </p>
-                            </form>
-                        </div>
+                        <form class="comments-form">
+                            <p class="text">
+                                <textarea  name="text"></textarea>
+                            </p>
+                            <p class="submit">
+                                <input  type="submit" value="Комментировать" />
+                            </p>
+                        </form>
                     </div>
 
                     <ul class="media-list">
                         <!-- Комментарий (уровень 1) -->
                         <li class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object img-rounded" src="avatar1.jpg" alt="...">
-                                </a>
+                                <div class="avatar">
+                                        <img class="media-object img-rounded" src="https://pp.userapi.com/c625421/v625421307/46842/42u1SAcasjA.jpg" alt="...">
+                                    <div class="social"><span class="letter">B</span></div>
+                                </div>
                             </div>
                             <div class="media-body">
                                 <div class="media-heading">
@@ -143,9 +144,10 @@
                                 <!-- Вложенный медиа-компонент (уровень 2) -->
                                 <div class="media">
                                     <div class="media-left">
-                                        <a href="#">
-                                            <img class="media-object img-rounded" src="avatar2.jpg" alt="">
-                                        </a>
+                                        <div class="avatar">
+                                            <img class="media-object img-rounded" src="https://pp.userapi.com/c625421/v625421307/46842/42u1SAcasjA.jpg" alt="...">
+                                            <div class="social"><span class="letter">B</span></div>
+                                        </div>
                                     </div>
                                     <div class="media-body">
                                         <div class="media-heading">
@@ -176,9 +178,10 @@
                                         <!-- Вложенный медиа-компонент (уровень 3) -->
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object img-rounded" src="avatar3.jpg" alt="">
-                                                </a>
+                                                <div class="avatar">
+                                                    <img class="media-object img-rounded" src="https://pp.userapi.com/c625421/v625421307/46842/42u1SAcasjA.jpg" alt="...">
+                                                    <div class="social"><span class="letter"><i class="fa fa-facebook" aria-hidden="true"></i></span></div>
+                                                </div>
                                             </div>
                                             <div class="media-body">
                                                 <div class="media-heading">
@@ -216,9 +219,10 @@
                                 <!-- Ещё один вложенный медиа-компонент (уровень 2) -->
                                 <div class="media">
                                     <div class="media-left">
-                                        <a href="#">
-                                            <img class="media-object img-rounded" src="avatar4.jpg" alt="">
-                                        </a>
+                                        <div class="avatar">
+                                            <img class="media-object img-rounded" src="https://pp.userapi.com/c625421/v625421307/46842/42u1SAcasjA.jpg" alt="...">
+                                            <div class="social"><span class="letter"><i class="fa fa-facebook" aria-hidden="true"></i></span></div>
+                                        </div>
                                     </div>
                                     <div class="media-body">
                                         <div class="media-heading">
@@ -256,9 +260,10 @@
                         <!-- Комментарий (уровень 1) -->
                         <li class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object img-rounded" src="avatar5.jpg" alt="">
-                                </a>
+                                <div class="avatar">
+                                    <img class="media-object img-rounded" src="https://pp.userapi.com/c625421/v625421307/46842/42u1SAcasjA.jpg" alt="...">
+                                    <div class="social"><span class="letter"><i class="fa fa-facebook" aria-hidden="true"></i></span></div>
+                                </div>
                             </div>
                             <div class="media-body">
                                 <div class="media-heading">
@@ -292,9 +297,10 @@
                         <!-- Комментарий (уровень 1) -->
                         <li class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object img-rounded" src="avatar1.jpg" alt="">
-                                </a>
+                                <div class="avatar">
+                                    <img class="media-object img-rounded" src="https://pp.userapi.com/c625421/v625421307/46842/42u1SAcasjA.jpg" alt="...">
+                                    <div class="social"><span class="letter"><i class="fa fa-facebook" aria-hidden="true"></i></span></div>
+                                </div>
                             </div>
                             <div class="media-body">
                                 <div class="media-heading">

@@ -32,7 +32,7 @@
     .entry-title{font-size: 18px; margin:0px 0px 5px 0px}
     .detail_header{padding: 5px 5px 25px 5px;}
     .detail_header_index{color:#fff;  background: rgba(0, 0, 0, 0.7);  padding: 5px 5px 25px 5px;}
-    .detail_content{  padding-left: 5px!important;  padding-right: 5px!important;  }
+    .detail_content{  padding-left: 10px!important;  padding-right: 10px!important;  }
     .container_main>div{padding-bottom: 5px;}
     .container_main{ padding: 5px 5px 0px 5px!important;  }
     .caption_item{position: absolute;  bottom: 0;  width: 100%;  z-index: 1;}
@@ -378,7 +378,7 @@ li.card-frame {
 
 .media-body .author {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #000;
     font-weight: 700;
 }
@@ -386,7 +386,7 @@ li.card-frame {
     display: inline-block;
     margin-left: .5rem;
     color: #777;
-    font-size: .8125rem;
+    font-size: 1.3125rem;
 }
 .footer-comment {
     color: #777;
@@ -464,4 +464,34 @@ li.card-frame {
     -moz-box-shadow: rgba(0,0,0, 0.1)  0px 0px 8px;
     -webkit-box-shadow: rgba(0,0,0, 0.1)  0px 0px 8px;
 }
-.comments-form{padding-bottom: 20px}
+.comments-form{padding-bottom: 20px;
+    position: relative!important;
+    margin: 0 0 0 60px!important;}
+.comments .row img{float: left;border-radius: 6px;}
+.comments .social{
+    position: absolute;
+    top: 37px;
+    left: 40px;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-box-shadow: 0 0 1px #000;
+    background-color: #41658b;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+.comments .social .letter{
+    position: relative;
+    left: 4px;
+    font-size: 12px;
+    top: -1px;
+}
+.avatar{position: relative}
+.deck-img{padding-bottom:20px}
+.detail_deck .detail_content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
