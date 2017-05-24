@@ -366,7 +366,7 @@ li.card-frame {
     display: block;
     position: relative;
     height: 40px;
-    background-color: #1b1b1b;
+    background-color: #000;
     border-right: 5px solid #000;
 }
 
@@ -494,4 +494,18 @@ li.card-frame {
 .detail_deck .detail_content{
     padding-left: 20px;
     padding-right: 20px;
+}
+.blur-card-left{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80px;
+    background: linear-gradient(to left, rgba(0,0,0,0), rgba(0, 0, 0,1));
+}
+.blur-card-right{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0, 0, 0,1));
 }
